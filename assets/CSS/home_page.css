@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    z-index: 999;
+}
+header .navbar{
+    line-height: 2.5!important;
+}
+header .navbar .nav-link{
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+    padding-bottom: 0;
+    color: rgb(38, 107, 119);
+    font-weight: 600;
+}
+header .navbar .nav-link:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+header .navbar-brand img{
+    height: 60px;
+    width: 80px;
+    position: relative;
+    top: 10px;
+}
+/* Slider section css */
+
+#slider .carousel-inner .img-fluid{
+    height: 100vh!important;
+}
+#slider .carousel-item .carousel-caption{
+    bottom:35%;
+    left:15%;
+    width: 40%;
+}
+#slider .carousel-item .carousel-caption h3{
+    font-weight: 500;
+    font-size: 1.85rem;
+}
+#slider .carousel-item .carousel-caption h3 span{
+    font-weight: 800;
+    color:  rgb(38, 107, 119);
+    letter-spacing: 2px;
+}
+#slider .carousel-item .carousel-caption p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-family: cursive;
+}
+#slider .carousel-item .carousel-caption a{
+    text-decoration: none;
+    padding: 13px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+}
+#slider .carousel-item .carousel-caption a:hover{
+    color: black;
+    background-color: white;
+}
+#slider .carousel .carousel-control-prev,#slider .carousel .carousel-control-next{
+    opacity: 1!important;
+    width: 12%!important;
+}
+#slider .carousel .carousel-control-next:hover>span, #slider .carousel .carousel-control-prev:hover>span{
+    border: 1px solid white;
+    padding: 15px 15px;
+    transition: .5s ease-in-out;
+}
+/* category section CSS */
+
+#category .heading, #why-choose-us .heading{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 25px;
+    color: rgb(17, 62, 121);
+}
+#category a{
+    display: block;
+    width: 100%;
+    height: 250px;
+    background-size: 100% 100%!important;
+    text-decoration: none;
+}
+#category .on-hover-blur:hover{
+    height: 250px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+#category .text{
+    position: relative;
+    top: 205px;
+    opacity: 0;
+    color: cornsilk;
+    font-weight: 800;
+    text-decoration: none;
+}
+#category a:hover .text{
+    opacity: 1;
+    transition: 1s;
+}
+#category img.img-fluid{
+    height: 250px!important;
+    width: 100%;
+}
+#category img.img-fluid:hover{
+    opacity: rgba(0,0,0,0.5);
+    content: "Dinning Room";
+    align-content: space-around;
+    color: black;
+    font-size: 20px;
+}
+/* Background image section css */
+#bg-img{
+    background: url(/assets/Images/customeimg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+    height: 500px;
+}
+#bg-img .dark{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 500px;
+    margin-bottom: 80px;
+    padding: 200px 0;
+}
+#bg-img p{
+    color: white;
+}
+#bg-img h2{
+    color: white;
+    font-family: 'Dancing Script';
+    font-weight: 700;
+    font-size: 40px;
+}
+#bg-img .btn{
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px!important;
+    margin-top: 10px;
+    font-weight: 600;
+    padding: 8px 20px;
+}
+#bg-img .btn:hover{
+    background-color: white;
+    color: black;
+}
+/* Why choose us section css */
+
+#why-choose-us{
+    background-color:#EFEEEC ;
+    height: auto;
+}
+#why-choose-us{
+    padding: 40px 20px 70px;
+}
+#why-choose-us .boxes{
+    background-color: lavender;
+    padding: 30px 10px;
+    /* box-shadow: 4px 6px 9px #2f4354; */
+}
+#why-choose-us img{
+    width: 65px;
+    margin-bottom: 10px;
+}
+
+/* Footer CSS */
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 10px 40px;
+}
+footer .in-footer{
+    border-bottom: 1px solid white;
+}
+footer .quick-links{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 10px;
+}
+footer h5{
+    color:#ff8430;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+footer p,span,address{
+    color: white;
+}
+footer input{
+    border: 0;
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+    width: 70%;
+    padding: 5px 10px;
+    background: transparent;
+}
+footer .quick-links:hover{
+    text-decoration: none;
+    color: royalblue;
+}
+footer .social-links{
+    margin-top: 15px;
+}
+footer .in-footer i.fa-search{
+    position: relative;
+    right: 30px;
+    color: white;
+}
+footer .social-links a{
+    margin-right: 15px;
+    font-size: 25px;
+    color: #ff8430;
+}

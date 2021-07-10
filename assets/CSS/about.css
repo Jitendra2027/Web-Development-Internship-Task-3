@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header .navbar .nav-link{
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+    color: rgb(38, 107, 119);
+    font-weight: 600;
+}
+header .navbar .nav-link:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+header .navbar-brand img{
+    height: 60px;
+    width: 80px;
+}
+/* About section css */
+#about{
+    margin-top: 20px;
+}
+#about .text h2{
+    color: #052C43;
+    font-family: 'PT Serif', serif;
+    margin-bottom: 10px;
+}
+#about p{
+    color: #8B8B8B;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+/* Bg-fixed section css */
+#bg-fixed{
+    background: url(/assets/Images/customeimg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+#bg-fixed .blur-image{
+    height: inherit;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 60px 0;
+}
+#bg-fixed .blur-image h1,p,a{
+    color: white;
+}
+#bg-fixed .blur-image h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+}
+#bg-fixed .blur-image .btn{
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid white;
+    font-weight: 600;
+    color: white;
+    border-radius: 25px;
+}
+#bg-fixed .blur-image .btn:hover{
+    background-color: white;
+    color: black;
+}
+#bg-fixed .blur-image p{
+    font-size: 20px;
+    font-family: serif;
+}
+/* footer css */
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 10px 40px;
+}
+footer .in-footer{
+    border-bottom: 1px solid white;
+}
+footer .quick-links{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 10px;
+}
+footer h4{
+    color: #ff8430;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+footer p,span,address{
+    color: white;
+}
+footer input{
+    border: 0;
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+    width: 70%;
+    padding: 5px 10px;
+    background: transparent;
+}
+footer .quick-links:hover{
+    text-decoration: none;
+    color: royalblue;
+}
+footer .social-links{
+    margin-top: 15px;
+}
+footer .in-footer i.fa-search{
+    position: relative;
+    right: 30px;
+    color: white;
+}
+footer .social-links a{
+    margin-right: 15px;
+    font-size: 25px;
+    color: #ff8430;
+}
